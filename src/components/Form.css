@@ -1,0 +1,24 @@
+#form p{
+font-size: 2.5em;
+font-weight: 400;
+color: white;
+}
+#form form{
+    background-color: white;
+    margin: 24px 0;
+    padding:10px 10px 10px 40px  ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+form input{
+    border: none;
+    outline: none;
+}
+form button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}

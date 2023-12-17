@@ -1,0 +1,22 @@
+form input{
+    border: none;
+    outline: none;
+
+}
+form button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+
+form{
+    background-color: white;
+    margin: 24px 0;
+    padding:10px 10px 10px 40px  ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
