@@ -26,7 +26,7 @@ const Form = () => {
         <div id='form'>
             <p>What's the Plan for today ?</p>
             <form onSubmit={AddToDo}>
-                <input ref={inpVal} type="text" placeholder='Add to new todo...' />
+                <input ref={inpVal} type="text" placeholder='Add new todo...' />
                 <button >add</button>
             </form>
         </div>
