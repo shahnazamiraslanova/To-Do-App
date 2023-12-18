@@ -8,7 +8,7 @@ const List = () => {
     <div>
         {
             list.map(item=>
-                <ListItem item={item}/>
+                <ListItem key={nanoid()} item={item}/>
                 )
         }
     </div>
